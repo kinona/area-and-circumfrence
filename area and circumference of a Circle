@@ -1,0 +1,22 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	int  radius, P1,area, circumfrence;
+	cout << "enter radius of a circle";
+	cin >> radius;
+	cout <<"enter P1 of a circle";
+	cin>>P1;
+	area = P1 * radius * radius;
+	circumfrence=2 * P1 * radius;
+	cout<<" the area of a circle is"<<area<<endl;
+	cout<<"the circumfrence of a circle is"<<circumfrence<<endl;
+	
+
+
+
+
+return 0;
+	
+}
